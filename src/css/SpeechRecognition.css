@@ -1,0 +1,60 @@
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 88vh;
+}
+.heading {
+  font-size: 40px;
+  margin: 10px 0 40px 0;
+  color: blueviolet;
+}
+.centerComponent {
+  width: 80vw;
+  height: 60vh;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.main-content {
+  height: 25vh;
+  min-width: 70vw;
+  margin: 0 40px;
+  border-radius: 10px;
+  overflow-y: scroll;
+  padding: 10px 20px;
+  color: grey;
+  border: 3px dashed red;
+}
+.recognitionBtn {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  transition: 0.3s;
+  padding: 7px;
+  font-size: 1rem;
+}
+.recognitionBtn:hover {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+.buttonContainer {
+  width: 40vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 0;
+}
+.buttonContainerPro {
+  width: 33vw;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px 0;
+}
